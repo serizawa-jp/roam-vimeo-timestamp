@@ -1,0 +1,24 @@
+{
+  "name": "roam-vimeo-timestamp",
+  "version": "1.0.0",
+  "description": "Vimeo timestamp for Roam Research",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build --no-source-maps --experimental-scope-hoisting -o vimeo-timestamp.min.js src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serizawa-jp/roam-vimeo-timestamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serizawa-jp/roam-vimeo-timestamp/issues"
+  },
+  "homepage": "https://github.com/serizawa-jp/roam-vimeo-timestamp#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
